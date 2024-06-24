@@ -1,0 +1,104 @@
+.transaction-table{
+    min-height: 50vh;
+    max-width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin: 25px;
+}
+.transaction-head{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.transaction-head p{
+    height: 100px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 600;
+}
+.transactiontable-search{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.transactiontable-search input{
+    height: 90%;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.transactiontable-search select{
+    height: 100%;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+.table{
+    height: 60%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    background-color: rgb(226, 170, 66);
+    margin: 10px;
+}
+.table table{
+    height: 100%;
+    width: 100%;
+    border: 2px solid black;
+    border-spacing: 0px;
+}
+.table th{
+    border: 1px solid  black;
+}
+.table td{
+    border: 1px solid black;
+}
+.pagination{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.pagination p{
+    height: 20%;
+    width: 200px;
+    font-size: 25px;
+    font-weight: 600;
+}
+.buttons{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttons button{
+    height: 50px;   
+    width: 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: 500;
+}
